@@ -2,7 +2,7 @@ byte R = 9;   // 定義 R 腳位為9
 byte G = 10;  // 定義 G 腳位為10
 byte B = 11;  // 定義 B 腳位為11
 int brightness = 0;  
-int fadeAmount = 5;  
+int fadeAmount = 1;  
 
 void setup() {
   pinMode(R,OUTPUT);  // 設定 R, G, B 三個腳位皆作為輸出
@@ -18,8 +18,9 @@ void loop() {
 
   brightness = brightness + fadeAmount;
 
-  if (brightness <= 0 || brightness >= 255) {
+  if (brightness <= 0 || brightness >= 100) {
     fadeAmount = -fadeAmount;
   }
   delay(30);
 }
+

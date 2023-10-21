@@ -9,13 +9,13 @@ void setup() {
 }
 
 void loop() {
-  analogWrite(R,0);  // 數字從 0 ~ 255, 8 bits
-  analogWrite(G,134);
-  analogWrite(B,139);
+  analogWrite(R,139);  // 數字從 0 ~ 255, 8 bits
+  analogWrite(G,69);
+  analogWrite(B,19);
   delay(1000);
-  analogWrite(R,70);
-  analogWrite(G,130);
-  analogWrite(B,180);
+  analogWrite(R,255);
+  analogWrite(G,250);
+  analogWrite(B,250);
   delay(1000);
 }
 
