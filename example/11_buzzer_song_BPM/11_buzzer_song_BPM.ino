@@ -14,14 +14,15 @@ int eigth = quarter / 2;          // 八分音符
 
 // 用陣列儲存兩隻老虎的旋律
 int melody[] = {NOTE_A4, NOTE_B4,
- NOTE_C4, NOTE_A4,
-                NOTE_E4, NOTE_C4, NOTE_B4, NOTE_E4,
-                NOTE_C4, NOTE_A4, NOTE_F4, NOTE_C4,
-                NOTE_A4, NOTE_G4, NOTE_G4,
-                NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C2, NOTE_A4,
-                NOTE_B4, NOTE_C4, NOTE_D4, NOTE_D4, NOTE_C4, NOTE_B4,
-                NOTE_B4, NOTE_A4, NOTE_C4,
-                NOTE_A4, NOTE_E4, NOTE_C4
+                NOTE_C4, NOTE_A4, NOTE_E4, NOTE_C4, 
+                NOTE_B4, NOTE_E4, NOTE_C4, 
+                NOTE_A4, NOTE_F4, NOTE_C4, NOTE_A4, 
+                NOTE_G4, NOTE_G4,
+                NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, 
+                NOTE_C2, NOTE_A4, NOTE_B4, NOTE_C4, 
+                NOTE_D4, NOTE_D4, NOTE_C4, NOTE_B4, NOTE_B4, 
+                NOTE_A4, NOTE_C4, NOTE_A4, 
+                NOTE_E4, NOTE_C4, NOTE_E4, NOTE_C4
                 };
 
 // 用陣列儲存兩隻老虎的節奏
@@ -30,11 +31,11 @@ int noteDurations[] = { eigth, eigth,
                         eigth, eigth, eigth, 
                         eigth, 1.5*quarter, quarter, quarter,
                         quarter, eigth,
-                        eigth, eigth, eigth,
-                        eigth, eigth, eigth, eigth, quarter, eigth,
-                        eigth, eigth, eigth, quarter, eigth, eigth,
-                        eigth, eigth, 1.5*quarter,
-                        quarter, eigth, eigth
+                        eigth, eigth, eigth, eigth, 
+                        eigth, eigth, eigth, quarter,
+                        quarter, eigth, eigth, eigth, eigth,  
+                        quarter, eigth, eigth, 
+                        eigth, eigth, 1.5*quarter, quarter,
                       };
 
 void setup() {
