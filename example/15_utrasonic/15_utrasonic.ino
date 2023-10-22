@@ -22,6 +22,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(receiver, INPUT);
   pinMode(trigger, OUTPUT);
+  pinMode(2,OUTPUT);
 }
 
 void loop() {
@@ -34,7 +35,13 @@ void loop() {
   
   t = pulseIn(receiver,HIGH);     // 讀取接收超音波脈衝時間 (微秒)
   distance = compute_distance(t); // 使用函式計算長度
+ 
+  if(distance <30) {
+    digitalWrite(2,HIGH);
+  } 
+  else {digitalWrite(2,LOW);
+  }
   
-  Serial.println(x);
+  Serial.println(distance);
   delay(250);
 }
