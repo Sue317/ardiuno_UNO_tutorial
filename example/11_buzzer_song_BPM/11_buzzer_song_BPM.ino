@@ -15,10 +15,11 @@ int sixteen = quarter / 4;
 
 
 int melody[] = {
-  NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4,
-  NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_B4, NOTE_B4, NOTE_B4, 0,
-  NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4,  
-  NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_A4, NOTE_A4, NOTE_A5, NOTE_A5, NOTE_G6, NOTE_G6, NOTE_A7, NOTE_D7, 
+  NOTE_C4, NOTE_D4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_C4,
+  NOTE_C4, NOTE_D4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_B4, NOTE_B4, NOTE_B4, 0,
+  NOTE_C4, NOTE_D4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_C4, NOTE_C4,  
+  NOTE_D4, NOTE_E4, NOTE_D4, NOTE_E4, NOTE_A4, NOTE_A4, NOTE_A5, NOTE_A5, NOTE_G6, NOTE_G6, NOTE_A7, NOTE_D7, 
+
 };
 
 int noteDurations[] = {
@@ -26,7 +27,7 @@ int noteDurations[] = {
   eigth, eigth, eigth, eigth, eigth, eigth, sixteen, sixteen, sixteen, sixteen, 
   eigth, eigth, eigth, eigth, eigth, eigth, eigth, eigth,
   eigth, eigth, eigth, eigth, sixteen, sixteen, sixteen, sixteen, sixteen, sixteen, sixteen, sixteen,
-  
+
 };
 
 void setup() {
